@@ -1,0 +1,21 @@
+[
+    {
+        "type": 10,
+        "content": "If life gives you giant spaghetti, make giant spaghetti soup."
+    },
+    {
+        "type": 17,
+        "accent_color": 754537,
+        "spoiler": true,
+        "components": [
+            {
+                "type": 10,
+                "content": "Always hug a stranger before you explode."
+            },
+            {
+                "type": 10,
+                "content": "Behind every robot, there's a thrilled emotional potato."
+            }
+        ]
+    }
+]

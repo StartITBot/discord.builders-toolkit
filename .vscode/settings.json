@@ -1,0 +1,82 @@
+{
+  "files.associations": {
+    "*.js.ejs": "javascript",
+    "*.es6.ejs": "javascript",
+    "*.mjs.ejs": "javascript",
+    "*.cjs.ejs": "javascript",
+    "*.pac.ejs": "javascript",
+
+    "*.ts.ejs": "typescript",
+    "*.cts.ejs": "typescript",
+    "*.mts.ejs": "typescript",
+
+    "*.py.ejs": "python",
+    "*.rpy.ejs": "python",
+    "*.pyw.ejs": "python",
+    "*.cpy.ejs": "python",
+    "*.gyp.ejs": "python",
+    "*.gypi.ejs": "python",
+    "*.pyi.ejs": "python",
+    "*.ipy.ejs": "python",
+    "*.pyt.ejs": "python",
+
+    "*.cs.ejs": "csharp",
+    "*.csx.ejs": "csharp",
+    "*.cake.ejs": "csharp",
+
+    "*.cpp.ejs": "cpp",
+    "*.cppm.ejs": "cpp",
+    "*.cc.ejs": "cpp",
+    "*.ccm.ejs": "cpp",
+    "*.cxx.ejs": "cpp",
+    "*.cxxm.ejs": "cpp",
+    "*.c++.ejs": "cpp",
+    "*.c++m.ejs": "cpp",
+    "*.hpp.ejs": "cpp",
+    "*.hh.ejs": "cpp",
+    "*.hxx.ejs": "cpp",
+    "*.h++.ejs": "cpp",
+    "*.h.ejs": "cpp",
+    "*.ii.ejs": "cpp",
+    "*.ino.ejs": "cpp",
+    "*.inl.ejs": "cpp",
+    "*.ipp.ejs": "cpp",
+    "*.ixx.ejs": "cpp",
+    "*.tpp.ejs": "cpp",
+    "*.txx.ejs": "cpp",
+    "*.hpp.in.ejs": "cpp",
+    "*.h.in.ejs": "cpp",
+
+    "*.go.ejs": "go",
+
+    "*.java.ejs": "java",
+    "*.jav.ejs": "java",
+
+    "*.php.ejs": "php",
+    "*.php4.ejs": "php",
+    "*.php5.ejs": "php",
+    "*.phtml.ejs": "php",
+    "*.ctp.ejs": "php",
+
+    "*.rs.ejs": "rust",
+
+    "*.c.ejs": "c",
+    "*.i.ejs": "c",
+
+    "*.dart.ejs": "dart",
+
+    "*.kt.ejs": "kotlin",
+    "*.kts.ejs": "kotlin",
+    "*.ktm.ejs": "kotlin",
+
+    "*.rb.ejs": "ruby",
+    "*.rbx.ejs": "ruby",
+    "*.rjs.ejs": "ruby",
+    "*.gemspec.ejs": "ruby",
+    "*.rake.ejs": "ruby",
+    "*.ru.ejs": "ruby",
+    "*.erb.ejs": "ruby",
+    "*.podspec.ejs": "ruby",
+    "*.rbi.ejs": "ruby"
+  }
+}

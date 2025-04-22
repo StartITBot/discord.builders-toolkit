@@ -1,0 +1,13 @@
+<% if (data.comp.type == 10) { -%>
+    <%_ %>hikari.impl.TextDisplayComponentBuilder(content=<%= data.comp.content %>),
+<% } else if (data.comp.type == 13) { -%>
+    <%_ %>hikari.impl.FileComponentBuilder(file=<%= data.comp.file.url %><% _%>
+    <%_ %><% if (data.comp.spoiler) { %>, spoiler=True<% } %><% _%>
+    <%_ %>),
+<% } else if (data.comp.type == 14) { -%>
+    <%_ %>hikari.impl.SeparatorComponentBuilder(divider=<%- data.comp.divider ? 'True' : 'False' %>)
+<% } else if (data.comp.type == 17) { -%>
+    <%_ %><%- include('/sample/container.py.ejs', {comp: data.comp}); %>
+<% } else  { -%>
+    <%_ %>#
+<% } -%>
