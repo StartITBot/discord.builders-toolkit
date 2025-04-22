@@ -1,8 +1,14 @@
+import hikari
+
+bot = ...
+
 @bot.listen()
 async def command_interaction(event: hikari.InteractionCreateEvent) -> None:
+    interaction = event.interaction
+    
     components = [
 <% data.components.forEach(function(comp){ -%>
-        <%- include('/sample/components.py.ejs', {comp: comp}); -%>
+        <%- include('/sample/components.py.ejs', {comp: comp}); %>,
 <% }); -%>
     ]
 

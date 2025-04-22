@@ -2,7 +2,6 @@ hikari.impl.ContainerComponentBuilder(<% _%>
     <%_ %><% if (data.comp.accent_color) { %>accent_color=hikari.Color.from_hex_code(<%= "#" + Number(data.comp.accent_color).toString(16).padStart(6, '0').toUpperCase() %>)<% } %><% _%>
     <%_ %><% if (data.comp.spoiler) { %>, spoiler=True<% } %><% _%>
 )<% data.comp.components.forEach(function(comp){ -%>.add_component(
-            <%- include('/sample/components.py.ejs', {comp: comp}); -%>
+            <%- include('/sample/components.py.ejs', {comp: comp}); %>,
         )<% _%>
-<% }); -%><% _%>
-,
+<% }); -%>

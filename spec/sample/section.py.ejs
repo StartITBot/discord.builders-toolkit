@@ -1,0 +1,4 @@
+hikari.impl.SectionComponentBuilder(accessory=<%- include('/sample/components.py.ejs', {comp: data.comp.accessory}); -%>)<% data.comp.components.forEach(function(comp){ -%>.add_component(
+            <%- include('/sample/components.py.ejs', {comp: comp}); %>,
+        )<% _%>
+<% }); -%>

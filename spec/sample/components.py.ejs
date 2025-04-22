@@ -1,13 +1,25 @@
 <% if (data.comp.type == 10) { -%>
-    <%_ %>hikari.impl.TextDisplayComponentBuilder(content=<%= data.comp.content %>),
+    <%_ %>hikari.impl.TextDisplayComponentBuilder(content=<%= data.comp.content %>)<% _%>
 <% } else if (data.comp.type == 13) { -%>
     <%_ %>hikari.impl.FileComponentBuilder(file=<%= data.comp.file.url %><% _%>
     <%_ %><% if (data.comp.spoiler) { %>, spoiler=True<% } %><% _%>
-    <%_ %>),
+    <%_ %>)<% _%>
 <% } else if (data.comp.type == 14) { -%>
-    <%_ %>hikari.impl.SeparatorComponentBuilder(divider=<%- data.comp.divider ? 'True' : 'False' %>)
+    <%_ %><%- include('/sample/separator.py.ejs', {comp: data.comp}); -%>
 <% } else if (data.comp.type == 17) { -%>
-    <%_ %><%- include('/sample/container.py.ejs', {comp: data.comp}); %>
+    <%_ %><%- include('/sample/container.py.ejs', {comp: data.comp}); -%>
+<% } else if (data.comp.type == 1) { -%>
+    <%_ %><%- include('/sample/actionrow.py.ejs', {comp: data.comp}); -%>
+<% } else if (data.comp.type == 2) { -%>
+    <%_ %><%- include('/sample/button.py.ejs', {comp: data.comp}); -%>
+<% } else if (data.comp.type == 12) { -%>
+    <%_ %><%- include('/sample/mediagallery.py.ejs', {comp: data.comp}); -%>
+<% } else if (data.comp.type == 9) { -%>
+    <%_ %><%- include('/sample/section.py.ejs', {comp: data.comp}); -%>
+<% } else if (data.comp.type == 11) { -%>
+    <%_ %><%- include('/sample/thumbnail.py.ejs', {comp: data.comp}); -%>
+<% } else if (data.comp.type == 3) { -%>
+    <%_ %><%- include('/sample/selectmenu.py.ejs', {comp: data.comp}); -%>
 <% } else  { -%>
-    <%_ %>#
+    <%_ %>#<% _%>
 <% } -%>
